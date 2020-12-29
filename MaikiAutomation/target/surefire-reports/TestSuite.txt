@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 1.718 s <<< FAILURE! - in TestSuite
+start(com.epam.ta.test.PageObjectTest$MaikiWebDriverTest)  Time elapsed: 1.438 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\vladb\Desktop\github-automation-master\java\GitHubAutomation\src\test\resources\chromedriver.exe
+	at com.epam.ta.test.PageObjectTest$MaikiWebDriverTest.start(PageObjectTest.java:21)
+
+end(com.epam.ta.test.PageObjectTest$MaikiWebDriverTest)  Time elapsed: 1.439 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.epam.ta.test.PageObjectTest$MaikiWebDriverTest.end(PageObjectTest.java:57)
+
+start(com.epam.ta.test.PageObjectTest$MaikiWebDriverTest)  Time elapsed: 1.443 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\vladb\Desktop\github-automation-master\java\GitHubAutomation\src\test\resources\chromedriver.exe
+	at com.epam.ta.test.PageObjectTest$MaikiWebDriverTest.start(PageObjectTest.java:21)
+
+end(com.epam.ta.test.PageObjectTest$MaikiWebDriverTest)  Time elapsed: 1.444 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.epam.ta.test.PageObjectTest$MaikiWebDriverTest.end(PageObjectTest.java:57)
+
+setUp(com.epam.ta.test.UserAccessTests)  Time elapsed: 1.446 s  <<< FAILURE!
+java.lang.NullPointerException
+
+stopBrowser(com.epam.ta.test.UserAccessTests)  Time elapsed: 1.446 s  <<< FAILURE!
+java.lang.NullPointerException
+
